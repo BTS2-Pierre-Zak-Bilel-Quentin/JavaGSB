@@ -1,3 +1,4 @@
+package controle.modele;
 
 import java.awt.Component; 
 import java.text.DateFormat; 

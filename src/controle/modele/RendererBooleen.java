@@ -1,4 +1,4 @@
-
+package controle.modele;
 import java.awt.Component; 
   
 import javax.swing.Icon; 
@@ -7,7 +7,7 @@ import javax.swing.JTable;
 import javax.swing.table.DefaultTableCellRenderer; 
   
 public class RendererBooleen extends DefaultTableCellRenderer { 
-   private static final longserialVersionUID = 1L; 
+   private static final long serialVersionUID = 1L; 
  
    private Icon carteOui; 
    private Icon carteNon; 
@@ -32,7 +32,7 @@ public class RendererBooleen extends DefaultTableCellRenderer {
       } else { 
          setIcon(carteNon); 
       } 
-      // pour centrer les données de la colonne 
+      // pour centrer les donnï¿½es de la colonne 
       setHorizontalAlignment(CENTER); 
       return this; 
    } 

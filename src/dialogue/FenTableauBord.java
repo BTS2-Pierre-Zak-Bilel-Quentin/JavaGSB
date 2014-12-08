@@ -64,10 +64,10 @@ public class FenTableauBord extends javax.swing.JDialog {
     private void jLab_NombreMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLab_NombreMouseClicked
         String vAnnee = JOptionPane.showInputDialog(null,
                 "Entrez une année : ");
-        FenStats stats = new FenStats(vAnnee);
-        stats.setModal(true);
-        stats.setLocationRelativeTo(stats.getParent());
-        stats.setVisible(true);
+     //   FenStats stats = new FenStats(vAnnee);
+     //   stats.setModal(true);
+     //   stats.setLocationRelativeTo(stats.getParent());
+     //   stats.setVisible(true);
     }//GEN-LAST:event_jLab_NombreMouseClicked
 
     /**

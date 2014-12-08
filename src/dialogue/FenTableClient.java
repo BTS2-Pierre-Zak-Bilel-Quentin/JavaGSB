@@ -1,6 +1,6 @@
 package dialogue;
 
-import controle.etat.JasperMySQL_Parametres;
+//import controle.etat.JasperMySQL_Parametres;
 import controle.modele.ModeleClient;
 import controle.modele.RendererBooleen;
 import controle.modele.RendererDate;
@@ -339,7 +339,7 @@ public class FenTableClient extends javax.swing.JFrame implements TableModelList
     }//GEN-LAST:event_jLab_RetourMouseClicked
 
     private void jLab_AperçuMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLab_AperçuMouseClicked
-        JasperMySQL_Parametres.apercu("EtatClients.jrxml");
+    //    JasperMySQL_Parametres.apercu("EtatClients.jrxml");
     }//GEN-LAST:event_jLab_AperçuMouseClicked
 
     private void prepaModification() {

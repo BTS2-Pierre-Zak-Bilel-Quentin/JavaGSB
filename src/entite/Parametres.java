@@ -9,7 +9,7 @@ public class Parametres {
 
     public Parametres() {
         nomUtilisateur = "root";
-        motDePasse = "tempo";
+        motDePasse = "sio";
         driverSGBD = "org.gjt.mm.mysql.Driver";
         serveurBD = "jdbc:mysql://localhost/xelfi";
     }

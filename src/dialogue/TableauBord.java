@@ -68,10 +68,10 @@ public class TableauBord extends JDialog {
                 public void mouseClicked(MouseEvent e) {
                     String vAnnee = JOptionPane.showInputDialog(null, 
                             "Entrez une année : ");
-                    FenStats stats = new FenStats(vAnnee);
-                    stats.setModal(true);
-                    stats.setLocationRelativeTo(stats.getParent());
-                    stats.setVisible(true);
+            //        FenStats stats = new FenStats(vAnnee);
+            //      stats.setModal(true);
+            //    stats.setLocationRelativeTo(stats.getParent());
+            //  stats.setVisible(true);
                 }
             });
         }
