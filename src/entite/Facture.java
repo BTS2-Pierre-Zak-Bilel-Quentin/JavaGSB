@@ -174,5 +174,13 @@ public class Facture {
         }
         return lesEnreg;
     }
-
+public ArrayList<Client> chercherFactureMois(Date date){ 
+	ArrayList<Client> chercherClientMois = new ArrayList<>(); 
+for(Facture unefacture :lesEnreg ){ 
+		if (date == getDate()){ 
+			chercherClientMois.add(getCode_client()); 
+		} 
+	} 
+	return chercherClientMois; 
+}
 }
