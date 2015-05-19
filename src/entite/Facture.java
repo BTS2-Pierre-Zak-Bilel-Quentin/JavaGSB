@@ -174,4 +174,19 @@ public class Facture {
         }
         return lesEnreg;
     }
+public double StatsCB()
+{ 
+	double statsCB=0; 
+	int NbreglementCB=0;
+
+for(Facture unefacture :lesEnreg ){ 
+	if (unefacture.getMode_reglement().equals("CarteBleue") ){ 
+		NbreglementCB=NbreglementCB+1; 
+	}
+
+} 
+statsCB = (NbreglementCB /lesEnreg.size())*100; 
+return statsCB; 
+}
+
 }
